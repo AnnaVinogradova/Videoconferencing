@@ -1,0 +1,40 @@
+@font-face {
+	font-family: allodsWest;
+	src: url(fonts/Allods_West.ttf);
+}
+
+@font-face {
+	font-family: aalbionicttlrgbt;
+	src: url(fonts/aalbionicttlrgbt.ttf);
+}
+
+body {
+	background-image: url(1.png);
+	font-family: allodsWest;
+	min-width: 500px;
+	margin: 0 50px;
+	padding: 0;
+}
+
+#header {
+	background-color: #03020D;
+}
+
+	#header img {
+		width: 100px;
+		margin: 10px 0 0 10px;
+	}
+
+	#header span a {
+		font-family: aalbionicttlrgbt;
+		color: #D9E2E2;
+		text-decoration: none;
+		font-size: 3em;
+	}
+
+#footer {
+	background-color: #03020D;
+	color: #F7F7F8;
+	padding: 50px 0;
+	text-align: center;
+}

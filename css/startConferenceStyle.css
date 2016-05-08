@@ -1,0 +1,118 @@
+html, body {
+  height: 100%;
+}
+
+.wrapper {
+	min-height: 100%;
+	position: relative;
+}
+
+#main-img {
+	min-height: calc(100vh - 120px);
+	background-color: #03020D;
+	position: relative;
+}
+
+	#main-img img {
+			max-width: 100%;
+		}
+
+	#main-img form {
+		position: absolute;
+		width: 700px;
+		height: 65px;
+	    top: 0;
+	    bottom: 20%;
+	    left: 0;
+	    right: 0;
+	    margin: auto;	
+		border-radius: 10px;
+		border: 2px solid #766F7B;	
+		-webkit-box-shadow:
+		0 1px 0 rgba(255,255,255,.2),
+		inset 0 4px 5px rgba(0,0,0,.6),
+		inset 0 1px 0 rgba(0,0,0,.6);
+	-moz-box-shadow:
+		0 1px 0 rgba(255,255,255,.2),
+		inset 0 4px 5px rgba(0,0,0,.6),
+		inset 0 1px 0 rgba(0,0,0,.6);
+	box-shadow:
+		0 1px 0 rgba(255,255,255,.2),
+		inset 0 4px 5px rgba(0,0,0,.6),
+		inset 0 1px 0 rgba(0,0,0,.6);
+
+	-webkit-border-radius: 20px;
+	-moz-border-radius: 20px;
+	border-radius: 20px;
+
+	background-image: url(1.png);
+	}
+
+	#main-img input {
+		height: 95%;
+	}
+
+		#main-img input.link {
+			width: 60%;
+			padding-left: 20px;
+			border-radius: 10px 0 0 10px;
+			border:0;
+			border-right: 2px solid #766F7B;	
+			
+			-webkit-box-shadow:
+				0 0 20px rgba(66, 226, 240,.6),
+				inset 0 0 20px rgba(66, 226, 240, 1);
+			-moz-box-shadow:
+				0 0 20px rgba(66, 226, 240,.6),
+				inset 0 0 20px rgba(66, 226, 240, 1);
+			box-shadow:
+				0 0 20px rgba(66, 226, 240,.6),
+				inset 0 0 20px rgba(66, 226, 240, 1);
+		}
+
+		#main-img input.button {
+			width: 35%;
+			border-radius: 0 10px 10px 0;
+			font-family: allodsWest;
+			font-size: 1.1em;
+			border: 0;
+			background-color: rgba(0,0,0,0);
+	
+		}
+
+			#main-img input.button:hover {	
+				-webkit-text-shadow: 10px 5px 10px #F2F2F3;
+				-moz-text-shadow: 10px 5px 10px #F2F2F3;
+				text-shadow: 10px 5px 2px #F7F7F8;
+			}
+
+#footer {
+	position: absolute;
+  	left: 0;
+  	bottom: 0;
+  	width: 100%;
+}
+
+@media screen and (max-width: 992px) {
+	#main-img form {
+		width: 500px;
+	}
+	#main-img input.link {
+			width: 35%;
+	}
+	#main-img input.link {
+			width: 55%;
+	}
+
+}
+
+@media screen and (max-width: 768px) {
+	body {
+		margin: 0;
+	}
+
+	#main-img form {
+		width: 500px;
+	}
+
+}
